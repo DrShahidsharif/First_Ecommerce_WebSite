@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a{
+  display: block;
+}
+
+/* a:hover {
+  color: rgb(5, 237, 249);
+  font-size: large;
+
+} */
+
+
+/* header {
+  color: blue;
+  background-color: red;
+  font-size: 50px;
+} */
