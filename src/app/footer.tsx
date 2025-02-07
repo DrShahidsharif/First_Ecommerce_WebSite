@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer(){
   return (
     <div>
-    <div className=" bg-[#EEEFFB]  w-[1920px] h-[479px] mt-[115px] flex">
+    <div className=" bg-[#EEEFFB]  max-w-[1920px] mx-auto h-[479px] mt-[115px] flex">
         <div className="w-[98px] ml-[310px]  ">
             <h1 className="text-[34px] font-extrabold mt-[95px]">Hekto</h1>
         </div>
@@ -61,7 +61,7 @@ export default function Footer(){
               </div>
             </div>
   </div>
-    <div className="bg-gray-400 h-12 w-[1920px]">
+    <div className="bg-gray-400 h-12 max-w-[1920px] mx-auto">
               <div className="flex h-full items-center justify-evenly ">
                 <div className="flex h-full items-center gap-1">
               <i className="fa-regular fa-copyright"></i>

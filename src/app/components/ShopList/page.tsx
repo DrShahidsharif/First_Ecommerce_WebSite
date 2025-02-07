@@ -1,8 +1,7 @@
 import Image from "next/image";
-
 function ShopList () {
     return (
-        <div className="w-[1920px] h-[2750px] ">
+        <div className="max-w-[1920px] mx-auto h-[2750px] ">
            <div className="flex mt-[19px] w-[1920px] h-[386px] bg-[#F6F5FF]">
 
             <div className="mt-[96px] ml-[374px]" >
@@ -264,7 +263,7 @@ function ShopList () {
     <div className="mt-[1600px] flex justify-center">
      <Image src="/images/image1174.png" alt="background image" width={904} height={93} />
     </div>
-        </div>
+</div>
     )
 };
 export default ShopList
